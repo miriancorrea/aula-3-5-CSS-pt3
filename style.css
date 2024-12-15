@@ -1,0 +1,28 @@
+.container{
+    display: grid;
+    grid-template-columns:1fr 3fr;
+    grid-template-rows: auto 1fr;
+}
+
+
+.header{
+    background-color:red;
+    padding: 20px;
+    grid-column: 1/-1;
+}
+
+.sidebar{
+    background-color: rgb(146, 73, 73);
+    padding: 20px;
+}
+
+.content{
+    background-color: chocolate;
+    padding: 20px;
+}
+
+.cont{
+    display: grid;
+    grid-template-columns:repeat(3,1fr) /*fazendo desta forma ele repetiu 3 vezes o mesmo tamanho*/
+    
+}
